@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StatAtlas — National Statistics for 12 Countries</title>
+<meta name="description" content="StatAtlas: population, economy, health, society and environment figures for 12 countries, 1990-2024, from the World Bank World Development Indicators.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">SA</span>
+      <span class="brand-text">
+        <span class="brand-name">StatAtlas</span>
+        <span class="brand-tag">National statistics, 1990–2024</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#/" data-nav="overview">Overview</a>
+      <a href="#/countries" data-nav="countries">Countries</a>
+      <a href="#/compare" data-nav="compare">Compare</a>
+      <a href="#/trends" data-nav="trends">Trends</a>
+      <a href="#/sources" data-nav="sources">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<main id="app" class="page"></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p><strong>StatAtlas</strong> is a static atlas: every page is computed in your
+    browser from the data file shipped with this site, so it works fully offline.</p>
+    <p>All figures: World Bank, <em>World Development Indicators</em>, retrieved
+    26 November 2026 via api.worldbank.org. Each figure on the site carries its
+    indicator and year. See <a href="#/sources">Sources &amp; method</a> for the
+    indicator list, definitions and notes.</p>
+  </div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
